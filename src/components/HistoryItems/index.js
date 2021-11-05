@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux'
 import { Link } from 'react-router-dom'
 import { Box, Flex } from 'rebass'
 import { actions } from '../../actions'
-import { mapString } from '../../util'
+import { mapString, getToLowerCase } from '../../util'
 import { Title } from '../Title'
 import { Container, ContentText } from './style'
 
@@ -51,7 +51,7 @@ const HistoryItems = withTheme(({ item, theme }) => {
         >
           <Flex height={[200, 200, 118]}>
             <img
-              src={`${process.env.PUBLIC_URL}/svg/flags/${item.CountryCode}.svg`}
+              src={`${process.env.PUBLIC_URL}/svg/flags/${getToLowerCase(item.CountryCode)}.svg`}
               width='100%' height='auto' alt=''
             />
           </Flex>

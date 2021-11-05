@@ -2,7 +2,7 @@ import { withTheme } from '@emotion/react'
 import { useDispatch, useSelector } from 'react-redux'
 import { Box, Flex } from 'rebass'
 import { actions } from '../../actions'
-import { getMapString } from '../../util'
+import { getMapString, getToLowerCase } from '../../util'
 import { Title } from '../Title'
 import { Container } from './style'
 
@@ -52,7 +52,7 @@ const FilterSearch = withTheme(({ theme }) => {
                       width='30px' height='22px'
                     >
                       <img
-                        src={`${process.env.PUBLIC_URL}/svg/flags/${item.CountryCode}.svg`}
+                        src={`${process.env.PUBLIC_URL}/svg/flags/${getToLowerCase(item.CountryCode)}.svg`}
                         width='100%' height='20px' alt=''
                       />
                     </Box>
