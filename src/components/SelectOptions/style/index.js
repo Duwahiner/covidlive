@@ -14,7 +14,7 @@ export const customStyles = {
     return {
       ...style,
       padding: '9px',
-      fontFamily: 'RalewayExtraLight',
+      fontFamily: 'RalewayMedium',
       ':hover': {
         backgroundColor: 'rgba(0, 0, 0, 0.08)'
       }
@@ -24,7 +24,7 @@ export const customStyles = {
   control: (style) => {
     return {
       ...style,
-      fontFamily: 'RalewayExtraLight',
+      fontFamily: 'RalewayMedium',
       backgroundColor: '',
       boxShadow: 'none',
       borderColor: 'hsl(0, 0%, 80%)',
@@ -46,7 +46,7 @@ export const customStyles = {
   menu: (style, state) => {
     return {
       ...style,
-      fontFamily: 'Arial',
+      fontFamily: 'RalewayMedium',
       backgroundColor: '#fff',
       boxShadow: 'none',
       border: `1px solid ${'#000'}`
@@ -56,7 +56,7 @@ export const customStyles = {
   placeholder: (styles) => {
     return {
       ...styles,
-      fontFamily: 'RalewayExtraLight',
+      fontFamily: 'RalewayMedium',
       color: 'rgba(0, 0, 0, 0.23)'
     }
   }

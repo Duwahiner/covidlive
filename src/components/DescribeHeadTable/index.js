@@ -48,7 +48,7 @@ const DescribeHeadTable = memo((props) => {
           as='h2'
           color={theme.text.secundary}
           fontSize={['24px', '24px', fontSize]}
-          fontFamily='RalewayThin'
+          fontFamily='RalewaySemiBold' 
           style={{ textAlign: 'center' }}
         > Name
         </Title>
@@ -65,7 +65,7 @@ const DescribeHeadTable = memo((props) => {
             as='h2'
             color={theme.text.secundary}
             fontSize={['24px', '24px', fontSize]}
-            fontFamily='RalewayThin'
+            fontFamily='RalewaySemiBold'
             style={{ textAlign: 'center' }}
           > Cases - cumulative total
           </Title>
@@ -93,7 +93,7 @@ const DescribeHeadTable = memo((props) => {
             as='h2'
             color={theme.text.secundary}
             fontSize={['24px', '24px', fontSize]}
-            fontFamily='RalewayThin'
+            fontFamily='RalewaySemiBold'
             style={{ textAlign: 'center' }}
           > Total Deaths
           </Title>
@@ -108,7 +108,7 @@ const DescribeHeadTable = memo((props) => {
           <Title
             color={theme.text.secundary}
             fontSize={['24px', '24px', fontSize]}
-            fontFamily='RalewayThin'
+            fontFamily='RalewaySemiBold'
             style={{ textAlign: 'center' }}
           > Total Recovered
           </Title>

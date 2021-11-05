@@ -61,7 +61,7 @@ const RelsultItemsTable = memo(({ data, item }) => {
                 as='span'
                 color={theme.text.secundary}
                 fontSize={fontSize}
-                fontFamily='RalewayThin'
+                fontFamily='RalewayMedium'
               > {item.Country}
               </Title>
             </ContentText>
@@ -79,7 +79,7 @@ const RelsultItemsTable = memo(({ data, item }) => {
                 as='span'
                 color={theme.text.secundary}
                 fontSize={fontSize}
-                fontFamily='RalewayThin'
+                fontFamily='RalewayMedium'
               > {getMapNumber(item.TotalConfirmed)}
               </Title>
             </Box>
@@ -100,7 +100,7 @@ const RelsultItemsTable = memo(({ data, item }) => {
                 as='span'
                 color={theme.text.secundary}
                 fontSize={fontSize}
-                fontFamily='RalewayThin'
+                fontFamily='RalewayMedium'
               > {getMapNumber(item.TotalDeaths)}
               </Title>
             </Box>
@@ -116,7 +116,7 @@ const RelsultItemsTable = memo(({ data, item }) => {
                 as='span'
                 color={theme.text.secundary}
                 fontSize={fontSize}
-                fontFamily='RalewayThin'
+                fontFamily='RalewayMedium'
               > {getMapNumber(item.TotalRecovered)}
               </Title>
             </Box>

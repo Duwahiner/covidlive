@@ -12,7 +12,7 @@ export const Container = styled(Flex)`
 export const SearchInput = styled.input`
     width: 100%;
     height: 40px;
-    font-family: RalewayExtraLight;
+    font-family: RalewayMedium;
     font-size: 20px;
     color: ${({ color }) => color};
     padding: 0px;
@@ -22,7 +22,7 @@ export const SearchInput = styled.input`
     line-height: 40px;
     background-color: transparent;
     &::placeholder {
-        font-family: RalewayExtraLight;
+        font-family: RalewayMedium;
         font-size: 20px;
         color: ${({ theme }) => theme.colors.placeholder};
     }
