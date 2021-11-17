@@ -15,7 +15,7 @@ const Buttom = ({
       justifyContent='center'
       alignItems='center'
       onClick={onClick}
-      sx={{ cursor: 'pointer' }}
+      sx={{ cursor: 'pointer ' }}
     >
       <Flex width={1}>
         {
